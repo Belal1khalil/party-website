@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery Assigment</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="loading">
+    <span class="loader"></span>
+  </div>
+    <div class="home" id="home">
+      <div class="container">
+        <div class="home-body d-flex flex-column justify-content-center align-items-center min-vh-100 text-white ">
+            <h1 class="fs-60 text-center"> Egyptian Party</h1>
+          <p>Let's have Fun</p>
+        </div>
+      </div>
+      <div class="icon d-flex align-items-center gap-1 text-white m-0 ">
+        <i class="fa-solid fa-bars gear"></i>
+        <p class="mb-2 gear ">open</p>
+      </div>
+      <aside class="aside">
+        <i class="fa-solid fa-xmark position-absolute end-0 mt-2 pe-2 text-white close"></i>
+      <ul class="list-unstyled p-4 mt-5">
+        <li class="mb-3" >
+          <a href="#home" class="text-decoration-none fs-2 text-white">Home</a>
+        </li>
+        <li  class="mb-3">
+          <a href="#duration" class="text-decoration-none fs-2 text-white">Duration</a>
+        </li>
+        <li  class="mb-3">
+          <a href="#counter" class="text-decoration-none fs-2 text-white">Details</a>
+        </li>
+        <li  class="mb-3">
+          <a href="#contact" class="text-decoration-none fs-2 text-white">Contact</a>
+        </li>
+      </ul>
+      </aside>
+    </div>
+    <div class="singers px-3 py-4 mt-5" id="duration">
+      <div class="one ">
+        <h3 class="text-center text-capitalize text-white fs-2 singer ">singer one</h3>
+          <div class="p">
+            <p class=" text-center bg-gray p-2  ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+          </div>
+      </div>
+      <div class="two ">
+        <h3 class="text-capitalize  text-white fs-2 text-center singer">singer two</h3>
+        <div class="p">
+          <p class=" text-center bg-gray p-2  ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </div>
+      </div>
+      <div class="three ">
+        <h3 class="text-capitalize singer text-white fs-2 text-center">singer three</h3>
+        <div class="p">
+          <p class=" text-center bg-gray p-2  ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </div>
+      </div>
+      <div class="four ">
+        <h3 class="text-capitalize singer text-white fs-2 text-center ">singer four</h3>
+        <div class="p">
+          <p class=" text-center bg-gray p-2  ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </div>
+      </div>
+     </div>
+    <div class="counter" id="counter">
+        <div class="container">
+         <div class="row text-white ">
+          <div class="col-md-6 col-lg-3 col-sm-12 mt-center  ">
+            <div class="inner border border-1 border-white px-3 py-5 text-center  ">
+              <h2 class="days"></h2>
+            </div>
+          </div>
+      <div class="col-md-6 col-lg-3 mt-center ">
+        <div class="inner border border-1 border-white px-3 py-5 text-center ">
+          <h2 class="hours"></h2>
+        </div>
+      </div>
+       <div class="col-md-6 col-lg-3 mt-center ">
+         <div class="inner border border-1 border-white px-3 py-5 text-center ">
+         <h2 class="minutes"></h2>
+      </div>
+      </div>
+         <div class="col-md-6 col-lg-3 col-sm-12 mt-center mb-2 ">
+         <div class="inner border border-1 border-white  px-3 py-5 text-center">
+           <h2 class="seconds"></h2>
+         </div>
+          </div>
+      </div>
+      </div>
+    </div>
+    <div class="contact" id="contact">
+        <div class="container">
+          <h4 class="p-5 mt-100 fs-35 bg-contact fw-bold ">JOIN US</h4>
+              <p class= "text-center m-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        <div class="row">
+          <div class=" col-md-6 col-lg-6 col-sm-12">
+            <div class="contact-us">
+              <div class="info p-5 mt">
+                <h5 class="bg-contact fw-bolder mx-4"> CONTACT INFO</h5>
+                <p class="mx-width text-center mt-3 ms-4">Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus mus.</p>
+              </div>
+              <div class="icons p-5 mt-50">
+                <i class="fa-solid fa-location-pin bg-main me-3"></i>
+                <span class="bg-main"> New Street 22545, Nexa Road, New York City, USA</span>
+                <p class="mt-0 p-5 ml-55 ">
+                  <i class="fa-solid fa-envelope me-3"></i>
+                  <a href="" class="text-danger"> hello@uigrid.com</a>
+                </p>
+                <p class="mb-0 p-1 ml-45">
+                  <i class="fa-solid fa-phone me-3"></i>
+                  <span> 001-000-000-000</span>
+                </p>
+              </div>
+              <div class="social-links ml-55">
+                <ul class="list-unstyled d-flex gap-4">
+                  <li>
+                    <a href="https://twitter.com">
+                      <i class="fa-brands fa-twitter bg-main border border-2 border-color px-2 py-2"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://facebook.com">
+                      <i class="fa-brands fa-facebook  bg-main border border-2 border-color px-2 py-2"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://instagram.com">
+                      <i class="fa-brands fa-instagram bg-main border border-2 border-color px-2 py-2"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://basketball.com">
+                      <i class="fa-solid fa-basketball  bg-main border border-2 border-color px-2 py-2"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://pinterest.com">
+                      <i class="fa-brands fa-pinterest bg-main border border-2 border-color px-2 py-2"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+             </div>
+          </div>
+          <div class=" col-md-6 col-lg-6 col-sm-12">
+            <form action="" class="w-100 mt-20">
+              <input type="text" name="username" id="" placeholder="Enter Name" class="form-control  mb-3">
+              <input type="email" name="username" id="" placeholder="Enter Email" class="form-control  mb-3">
+              <textarea name="" id="" placeholder="Enter Message" rows="5" class=" form-control mb-3 text-area"></textarea>
+              <p class="fw-bolder text-black"><span class="text-danger fs-5 fw-bolder me-2 count" >100</span>Character Reamining</p>
+              <button class="btn btn-danger">SEND MESSAGE</button>
+            </form>
+          </div>
+        </div>
+         
+        </div>
+    </div>
+    <script src="./js/jquery-3.7.1.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
