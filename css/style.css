@@ -199,4 +199,27 @@ aside ul li a:hover {
     left: 0;
     z-index: 999999;
     background-color: #001524;
+  } 
+  
+  @media (max-width : 768px) {
+    .singers {
+        width: 100%;
+    }
+    .email {
+        margin-left: -45px;
+    }
+    .phone {
+        margin-left: 0px;
+    }
+  }
+
+  @media (max-width:1205px) {
+    .email {
+        margin-left: -45px;
+        text-wrap: nowrap;
+    }
+    .phone {
+        margin-left: 0px;
+        text-wrap: nowrap;
+    }
   }
